@@ -1,0 +1,134 @@
+/*Created by Ridwan Abubakar - Twitter: @ridwan_abub*/
+
+body {
+    margin: auto;
+    height:100%;
+    width:100%;
+    display:block;
+    background: #f3f4f7;
+    font-family: Open sans, Helvetica, Sans-serif;
+    font-size: 16px;    
+}
+
+html {
+    padding: 0% 1% 1% 1%;
+}
+
+#header {
+   /* background: #ea4335;*/
+    background: #02b3e4;
+    text-align: center;
+    padding: 1.0em 1em;
+   /* height: 35%;*/
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.intro {
+    border:1px black dashed;
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.options {
+    padding: 10px;
+    margin-left: auto;
+    background: white;
+    display: block;
+    box-shadow: -2px 2px 4px grey;
+   /* width: 88%;*/
+}
+
+p.borderBottom {
+    border-bottom: 1px #f3f4f7 solid;
+    padding-bottom: 10px;
+}
+
+p.dimgrey {
+  color: dimgrey;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  padding: 1.2em 4em;
+  background: #02b3e4;
+  border-radius: 4px;
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  overflow: hidden;
+  max-width: 100%;
+  letter-spacing: .2em;
+  box-shadow: 12px 15px 20px rbga(0,0,0,0.1);
+  white-space: nowarp;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+.buttonright{
+  text-align: right;
+  margin-top: 25px;
+}
+
+.display1, .display2, .display3, .display4, .display5, .display6, .display7, .display8, .display9, .display10, .result {
+  display: none;
+} 
+
+.result{
+  border:1px black dashed;
+  background: white;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 45px;
+}
+
+.center{
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 35px;
+    
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
